@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ASShareTool_Example' do
+  pod 'ASShareTool', :path => '../'
+
+  target 'ASShareTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
