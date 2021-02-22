@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ASShareTool'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ASShareTool.'
+  s.summary          = ' base on umshareSDK and easy to use it'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,32 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+   share urlLink image or others context
                        DESC
 
-  s.homepage         = 'https://github.com/liukecyl@163.com/ASShareTool'
+  s.homepage         = 'https://github.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liukecyl@163.com' => 'liukecyl@163.com' }
-  s.source           = { :git => 'https://github.com/liukecyl@163.com/ASShareTool.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wodely/ASShareTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'ASShareTool/Classes/**/*'
-  
+  s.static_framework = true
   # s.resource_bundles = {
   #   'ASShareTool' => ['ASShareTool/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    #s.frameworks = 'UIKit', 'MapKit'
+    s.dependency 'UMCommon'
+    s.dependency 'UMCCommonLog'
+    s.dependency 'UMShare/UI'
+    s.dependency 'UMShare/Social/ReducedWeChat'
+    s.dependency 'UMShare/Social/Sina'
+    s.dependency 'UMShare/Social/ReducedQQ'
+    s.dependency 'UMShare/Social/Email'
+    s.dependency 'UMShare/Social/SMS'
 end

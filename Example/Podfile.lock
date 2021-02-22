@@ -1,0 +1,63 @@
+PODS:
+  - ASShareTool (0.1.0):
+    - UMCCommonLog
+    - UMCommon
+    - UMShare/Social/Email
+    - UMShare/Social/ReducedQQ
+    - UMShare/Social/ReducedWeChat
+    - UMShare/Social/Sina
+    - UMShare/Social/SMS
+    - UMShare/UI
+  - UMCCommonLog (2.0.0)
+  - UMCommon (7.2.5):
+    - UMDevice
+  - UMDevice (1.1.0)
+  - UMShare/Core (6.10.2):
+    - UMCommon
+  - UMShare/Social/Email (6.10.2):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedQQ (6.10.2):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedSina (6.10.2):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedWeChat (6.10.2):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Sina (6.10.2):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedSina
+  - UMShare/Social/SMS (6.10.2):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/UI (6.10.2):
+    - UMCommon
+    - UMShare/Core
+
+DEPENDENCIES:
+  - ASShareTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - UMCCommonLog
+    - UMCommon
+    - UMDevice
+    - UMShare
+
+EXTERNAL SOURCES:
+  ASShareTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASShareTool: 50236f8e5febd3d16afa8ad1736b8194cdd7f8ad
+  UMCCommonLog: 9b7ddde5d14a52fc1986ba5ac3121b8b2f433638
+  UMCommon: b5aabdb9fad44330ff8738d9bc46ebf93db14bf2
+  UMDevice: 28d21a568c8e8322e5a03bbd53b138d0c098d3b3
+  UMShare: ec11ef18fe90e7430466aced74fc305fe5e51618
+
+PODFILE CHECKSUM: f614a117fb05b51d36d14b0cba1107c25e976aeb
+
+COCOAPODS: 1.10.0

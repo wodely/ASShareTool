@@ -1,0 +1,6 @@
+framework module ASShareTool {
+  umbrella header "ASShareTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
