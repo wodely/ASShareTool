@@ -1,6 +1,6 @@
 {
   "name": "ASShareTool",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "base on umshareSDK and easy to use it",
   "description": "share urlLink image or others context",
   "homepage": "https://github.com",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/wodely/ASShareTool.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "ASShareTool/Classes/**/*",
   "static_framework": true,

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASShareTool'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = ' base on umshareSDK and easy to use it'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/wodely/ASShareTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'ASShareTool/Classes/**/*'
   s.static_framework = true
@@ -46,4 +46,5 @@ Pod::Spec.new do |s|
     s.dependency 'UMShare/Social/ReducedQQ'
     s.dependency 'UMShare/Social/Email'
     s.dependency 'UMShare/Social/SMS'
+    
 end

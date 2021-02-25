@@ -16,7 +16,6 @@
 				B8514FA45BE4C56745263C5731B42FEF /* PBXTargetDependency */,
 			);
 			name = UMCommon;
-			productName = UMCommon;
 		};
 		6075E73CE9761233A64B697DA4780D60 /* UMCCommonLog */ = {
 			isa = PBXAggregateTarget;
@@ -26,7 +25,6 @@
 			dependencies = (
 			);
 			name = UMCCommonLog;
-			productName = UMCCommonLog;
 		};
 		76CE6FDA7554B437965BADCED6281CAB /* UMShare */ = {
 			isa = PBXAggregateTarget;
@@ -37,7 +35,6 @@
 				43D09FFF1F4ED9B3F7794608C89E2D05 /* PBXTargetDependency */,
 			);
 			name = UMShare;
-			productName = UMShare;
 		};
 		CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */ = {
 			isa = PBXAggregateTarget;
@@ -47,7 +44,6 @@
 			dependencies = (
 			);
 			name = UMDevice;
-			productName = UMDevice;
 		};
 /* End PBXAggregateTarget section */
 
@@ -152,9 +148,9 @@
 		0B29D5046834EF78902CBF9BAC0A7B4B /* Pods-ASShareTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASShareTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		0D3E71211227EFF77E9CC26BC08D2B42 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = UMShare/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a; sourceTree = "<group>"; };
 		104AE680C88BEFFF0F6671DD3E05BA1D /* ASShareTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASShareTool.h; path = ASShareTool/Classes/ASShareTool.h; sourceTree = "<group>"; };
-		106E6AFBA2D1BC8DF195EB3999C9A662 /* ASShareTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASShareTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		106E6AFBA2D1BC8DF195EB3999C9A662 /* ASShareTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASShareTool.framework; path = ASShareTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11647CFD2856326B1AF1E7D9CF6AE365 /* UMCCommonLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCCommonLog.debug.xcconfig; sourceTree = "<group>"; };
-		12D2E2EFDFCEC0AD6067ABB1F7215629 /* Pods_ASShareTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASShareTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D2E2EFDFCEC0AD6067ABB1F7215629 /* Pods_ASShareTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASShareTool_Example.framework; path = "Pods-ASShareTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0C217B87FC6B113BCA5ECF50773815 /* Pods-ASShareTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASShareTool_Example-dummy.m"; sourceTree = "<group>"; };
 		1C226E5E639820A117673D74C3E04A0B /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UMShare/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
 		2695BD1F2B5227E9D88AFBEE0DA5588B /* Pods-ASShareTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASShareTool_Tests.modulemap"; sourceTree = "<group>"; };
@@ -167,9 +163,9 @@
 		36A2993280BF45532023210B66202520 /* Pods-ASShareTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASShareTool_Example-umbrella.h"; sourceTree = "<group>"; };
 		3951533AD417995DC51CA5849B148079 /* Pods-ASShareTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASShareTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3C368504F9F4E2D2FA182B58391FA78E /* libSocialEmail.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialEmail.a; path = UMShare/SocialLibraries/Email/libSocialEmail.a; sourceTree = "<group>"; };
-		3DBA878BD94048CEE4CD8A4B52A3874F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3DBA878BD94048CEE4CD8A4B52A3874F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		48889B95D16BD8ADF751C62AAF8835DF /* UMCCommonLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCCommonLog.release.xcconfig; sourceTree = "<group>"; };
-		48A958C397FC86025C271A475E2B89F5 /* Pods_ASShareTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASShareTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A958C397FC86025C271A475E2B89F5 /* Pods_ASShareTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASShareTool_Tests.framework; path = "Pods-ASShareTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1D418D53413EF5F1DEEB1B3A93E1B8 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = UMCommon_7.2.5/UMCommon.framework; sourceTree = "<group>"; };
 		4F0549181F50283C8A9D488445BBE886 /* ASShareTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASShareTool.modulemap; sourceTree = "<group>"; };
 		5F0AAE070029D6B8DCBBEC0B1A9B76FE /* UMDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMDevice.framework; path = UMDevice_1.1.0/UMDevice.framework; sourceTree = "<group>"; };
@@ -183,13 +179,13 @@
 		82E553603463B05AC86961AC4CACD334 /* UMDevice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMDevice.release.xcconfig; sourceTree = "<group>"; };
 		83A8582E59A93864BA9702F0BD41D841 /* Pods-ASShareTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASShareTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		83B3ACF7DF0234D33743675968714579 /* Pods-ASShareTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASShareTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8D76EF5B3A96CDDCCC3A46E941F7640D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D76EF5B3A96CDDCCC3A46E941F7640D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8F82C988B3B7515E6392E6D577B49C11 /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSinaHandler.h; path = UMShare/SocialLibraries/Sina/UMSocialSinaHandler.h; sourceTree = "<group>"; };
 		909DE86ADF376F6D3A03B99DEB421907 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UMShare/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
 		92327EBB8ADBCA9B745E8272C5A3C365 /* Pods-ASShareTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASShareTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		972A1E252DAD2F00CD526DC7300DDCB3 /* ASShareTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASShareTool.debug.xcconfig; sourceTree = "<group>"; };
-		9C806564CC7472E5DFE99988AB8C6CC9 /* ASShareTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ASShareTool.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C806564CC7472E5DFE99988AB8C6CC9 /* ASShareTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ASShareTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1B61C5443F91BAD88B6C62B2F63EFE4 /* ASShareTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASShareTool.m; path = ASShareTool/Classes/ASShareTool.m; sourceTree = "<group>"; };
 		A4FDC5E8B2B59BA1BCB834C5A9601938 /* ASShareTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASShareTool-prefix.pch"; sourceTree = "<group>"; };
 		B093EAB41BDD96C2EAA0E69C9D89AF53 /* Pods-ASShareTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASShareTool_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -287,6 +283,7 @@
 				3D148180EFAB6A409991BBB8B234F827 /* Resources */,
 				729788D10EBEC344F9B340FCAB6571DA /* Support Files */,
 			);
+			name = UMCCommonLog;
 			path = UMCCommonLog;
 			sourceTree = "<group>";
 		};
@@ -333,6 +330,7 @@
 				A230186EB90C36A0D4533EA5A5011D85 /* Frameworks */,
 				BE40026742187503F3C92F614999EE7A /* Support Files */,
 			);
+			name = UMDevice;
 			path = UMDevice;
 			sourceTree = "<group>";
 		};
@@ -573,6 +571,7 @@
 				7607F8A3DD67221BCEBAEF9BFB01B6A5 /* Frameworks */,
 				4F851DBA4C53E9D42C8A17CCDB1A330E /* Support Files */,
 			);
+			name = UMCommon;
 			path = UMCommon;
 			sourceTree = "<group>";
 		};
@@ -649,6 +648,7 @@
 				7B25CA59C6173F08FFC2C03D979D991E /* Support Files */,
 				2BE5F8F6765EF9AF1CFDD9682916FFCE /* UI */,
 			);
+			name = UMShare;
 			path = UMShare;
 			sourceTree = "<group>";
 		};
@@ -980,9 +980,9 @@
 			};
 			name = Debug;
 		};
-		84F554657C0D1A033925E099239D9F45 /* Release */ = {
+		6CE2F573C4F4A25F5E2340103063B908 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8806E9F6C5202F8612E373B8F24F8CB /* ASShareTool.release.xcconfig */;
+			baseConfigurationReference = 972A1E252DAD2F00CD526DC7300DDCB3 /* ASShareTool.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -995,7 +995,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ASShareTool/ASShareTool-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ASShareTool/ASShareTool-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ASShareTool/ASShareTool.modulemap";
@@ -1006,11 +1006,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		88CC9CF2E1A828C4E16CE9A3F4A2A1BE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1218,7 +1217,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1298,9 +1298,9 @@
 			};
 			name = Release;
 		};
-		F9EDC459B9423495742ABF44CF61CFB4 /* Debug */ = {
+		EAD6AE97C5299F1DD5DD1240F6334506 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 972A1E252DAD2F00CD526DC7300DDCB3 /* ASShareTool.debug.xcconfig */;
+			baseConfigurationReference = B8806E9F6C5202F8612E373B8F24F8CB /* ASShareTool.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1313,7 +1313,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ASShareTool/ASShareTool-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ASShareTool/ASShareTool-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ASShareTool/ASShareTool.modulemap";
@@ -1324,10 +1324,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1353,8 +1354,8 @@
 		672027F92F5C127804A3FF003AD871F4 /* Build configuration list for PBXNativeTarget "ASShareTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9EDC459B9423495742ABF44CF61CFB4 /* Debug */,
-				84F554657C0D1A033925E099239D9F45 /* Release */,
+				6CE2F573C4F4A25F5E2340103063B908 /* Debug */,
+				EAD6AE97C5299F1DD5DD1240F6334506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
