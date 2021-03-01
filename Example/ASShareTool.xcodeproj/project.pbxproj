@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "liukecyl@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = S7L45252D5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -527,6 +530,7 @@
 			baseConfigurationReference = 28822D5E69126333AD73D28A /* Pods-ASShareTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S7L45252D5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASShareTool/ASShareTool-Prefix.pch";
 				INFOPLIST_FILE = "ASShareTool/ASShareTool-Info.plist";
@@ -543,6 +547,7 @@
 			baseConfigurationReference = CFC71F68D8C6908C2A3C1F86 /* Pods-ASShareTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S7L45252D5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASShareTool/ASShareTool-Prefix.pch";
 				INFOPLIST_FILE = "ASShareTool/ASShareTool-Info.plist";
